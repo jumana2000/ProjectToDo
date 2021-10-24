@@ -24,8 +24,12 @@
 
                 <div class="form-group">
                     <input type="text" name="priority" class="form-control" placeholder="Your priority">
-                </div>
-                <br>
+                </div> <br>
+
+                <div class="form-group">
+                    <input type="date" name="date" class="form-control" placeholder="Your Date">
+                </div> <br>
+
                 <input type="submit" class="btn btn-success">
 
             </form>
@@ -37,7 +41,8 @@
             <div class="card-body">
                 <h5 class="card-title">{{i.name}}</h5>
                 <p><b>{{i.priority}}</b></p>
-                <a class="btn btn-danger" href="#">Done</a>
+                <p><b>{{i.date}}</b></p>
+                <a class="btn btn-danger" href="{% url 'delete' i.id %}">Done</a>
             </div>
             </div>
             <br>

@@ -7,7 +7,8 @@ def task_view(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         priority = request.POST.get('priority')
-        obj = Task(name=name, priority=priority)
+        date = request.POST.get('date')
+        obj = Task(name=name, priority=priority,date=date)
         obj.save()
     return render(request,"task_view.html",{'obj1':obj1})
 

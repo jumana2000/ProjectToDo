@@ -1,9 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <form method="post" class="mt-5">
+            {% csrf_token %}
+            <h3>Are You Sure This Task Is Done?</h3>
+            <button type="submit">Confirm</button>
+        </form>
+        </div>
 
-<form method="post">
-    {% csrf_token %}
-    <h3>Are You SUre This Task Is Done?</h3>
-    <button type="submit">Confirm</button>
-</form>
+</div>
 {% endblock %}
