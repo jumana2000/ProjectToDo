@@ -5,9 +5,26 @@
     <div class="row">
         <div class="col-md-12">
             <div class="banner">
+                {% if user.is_authenticated %}
+                <a style="font-family: 'Oswald', sans-serif;
+										font-size: 20px;
+										font-weight: 400;
+										color: #FFFFFF;
+										margin-left: 10px;
+										margin-top: 10px;
+										white-space: nowrap;">Hai {{user.username}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a  style="text-decoration:none; color: #FFFFFF;font-size: 20px;" href="accounts/logout">Logout</a>
+                {% else %}
+                <a  style="text-decoration:none; color: #FFFFFF;font-size: 20px;" href="accounts/register">Register</a>&nbsp;&nbsp;&nbsp;
+                <a  style="text-decoration:none; color: #FFFFFF;font-size: 20px;" href="accounts/login">Login</a>
+                {% endif %}
                 <div class="banner-text">
                     <h1>ToDo App</h1>
+
                 </div>
+
+
+
             </div>
        </div>
     </div>
