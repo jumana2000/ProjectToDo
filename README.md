@@ -17,6 +17,6 @@ This is a Python Django Project
 
 # Demo
 
-Site will be available in this link http://projecttodo.pythonanywhere.com/
+Site will be available in this link : http://projecttodo.pythonanywhere.com/
 
 
