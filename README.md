@@ -3,11 +3,16 @@
 This is a Python Django Project
 
 # Features 
-•	Register
+•	Register 
+
 •	Login
+
 •	View
+
 •	Add
+
 •	Update
+
 •	Delete
 
 # Demo
