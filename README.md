@@ -1,6 +1,17 @@
 # ProjectToDo
 
-Todo App is a Python Djano Project
+This is a Python Django Project
 
-Features : Register, Login, View, Add, Update and Delete
+# Features 
+•	Register
+•	Login
+•	View
+•	Add
+•	Update
+•	Delete
+
+# Demo
+
+Site will be available in this link http://projecttodo.pythonanywhere.com/
+
 
