@@ -15,8 +15,4 @@ This is a Python Django Project
 
 •	Delete
 
-# Demo
-
-Site will be available in this link : http://projecttodo.pythonanywhere.com/
-
 
